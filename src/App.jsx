@@ -2,7 +2,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
 
 const App = () => {
-  return <Navbar/>;
+  return <Home/>;
 };
 
 export default App;
