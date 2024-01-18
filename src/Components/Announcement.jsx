@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const Container = styled.div`
         height: 30px;
-        background-color: teal;
+        background-color: red;
         color: white;
         display: flex;
         align-items: center;
@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <Container>
-        Hey now Hey now
+        This is an Announcement
     </Container>
   )
 }
