@@ -19,5 +19,5 @@ export const slideItems = [
         title: "BACK TO SCHOOL SALE",
         desc: "BE THE CAMPUSE CRUSH! GET 80% DISCOUNTS ON NEW ARRIVALS!",
         bg: "f5fafd",
-    },
+    }
 ];
