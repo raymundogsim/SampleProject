@@ -1,7 +1,9 @@
+import React from 'react';
+import localImage from './localImage.jpg';
 export const slideItems = [
     {
         id: 1,
-        img: "https://i.pinimg.com/736x/88/17/2b/88172b3d0e8c3596991610b4a3fbfffd.jpg",
+        img: localImage,
         title: "SUMMER SALE",
         desc: "DON'T COMPROMISE YOUR SEDUCTIVE LOOK! GET 80% DISCOUNTS ON NEW ARRIVALS!",
         bg: "f5fafd",

@@ -34,7 +34,7 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
-    transform: translateX(${props=>props.slideIndex * -100}vw);
+    transform: translateX(${props=>props.slideindex * -100}vw);
 `;
 
 const Slide = styled.div`
@@ -51,7 +51,7 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-    height: 90%;
+    height: 80%;
 `;
 
 const InfoContainer = styled.div`
@@ -87,7 +87,7 @@ const Slider = () => {
             setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
         }
     };
-
+console.log(slideItems)
   return (
     <Container>
        <Arrow direction="left" onClick={()=>handleClick("left")}>
